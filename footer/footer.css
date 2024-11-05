@@ -1,0 +1,46 @@
+/* ----------------------------Footer-------------------- */
+footer {
+    background-color: rgba(255, 255, 255, 0.247);
+    height: 92px;
+    font-size: 17px;
+    font-family: "Montserrat";
+    color: black;
+    display: flex;
+  }
+  /* suivez-nous  */
+  .footer_reseau {
+    width: 35%;
+    text-align: center;
+    padding: 5px 0px;
+    font-weight: 700;
+  }
+  .footer_reseau #liens_reseau {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+  /* taile des logos du footer  */
+  footer div img {
+    width: 25px;
+  }
+  .footer_reseau img {
+    padding-top: 5px;
+    margin: 0px 10px;
+  }
+  /* mentions légales  */
+  .footer_CGV {
+    font-weight: 700;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  /* site réalisé  */
+  .footer_studio {
+    text-align: center;
+  }
+  .second_footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  }
